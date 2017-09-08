@@ -1,5 +1,5 @@
 def my_each(words)
-  while words != nil
+  while true
     return words.pop
     yield
   end
