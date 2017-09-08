@@ -1,7 +1,7 @@
 def my_each(words)
   i = words.size
   while i > 0
-    words[i]
+    words[0]
     i -= 1
     yield
   end
