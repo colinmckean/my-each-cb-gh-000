@@ -1,6 +1,6 @@
 def my_each(words)
   while true
-    return words.pop
+    words.pop
     yield
   end
 end
