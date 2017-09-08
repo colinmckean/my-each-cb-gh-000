@@ -1,6 +1,6 @@
 def my_each(words)
   i = words.size
-  while i >= 0
+  while i >= 1
     words.shift
     i -= 1
     yield
