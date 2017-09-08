@@ -1,8 +1,6 @@
 def my_each(words) # put argument(s) here
-  i = 0
-  while i < words.size {
+  while words.size != 0 {
     return words.pop
-    i -= 1
     yield
   }
   end  # code here
