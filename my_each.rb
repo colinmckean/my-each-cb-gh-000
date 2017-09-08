@@ -1,6 +1,8 @@
 def my_each(words)
-  while words.size > 0
+  i = words.size
+  while i >= 0
     words.shift
+    i - 1
     yield
   end
 end
