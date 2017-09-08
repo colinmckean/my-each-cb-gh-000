@@ -2,7 +2,7 @@ def my_each(words) # put argument(s) here
   i = 0
   puts words.size
   while i < words.size {
-    return words[i]
+    return words.pop
     i -= 1
     yield
   }
