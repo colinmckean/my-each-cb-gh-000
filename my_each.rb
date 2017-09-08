@@ -1,4 +1,4 @@
-def my_each(words)
+def my_each(word)
   while true
     return words.pop
     yield
