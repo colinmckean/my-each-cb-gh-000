@@ -5,5 +5,4 @@ def my_each(words)
     i -= 1
     yield
   end
-  return words
 end
